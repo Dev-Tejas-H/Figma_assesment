@@ -1,0 +1,51 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Order Details</Text>
+      
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+
+commands:
+
+rnfe - react native function expert
+
+header: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom:10,
+},
+
+/* Frame 1321315339 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 8px;
+gap: 16px;
+
+position: absolute;
+width: 350px;
+height: 252px;
+left: 0px;
+top: 72px;
+
+/* Background/Grey BG */
+background: #F2F3F3;
+
+
